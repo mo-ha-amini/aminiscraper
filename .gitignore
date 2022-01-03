@@ -4,8 +4,8 @@
 
 # production
 # /client/build
-jobs.csv
-projects.csv
+# jobs.csv
+# projects.csv
 
 # misc
 /Config/config.env
