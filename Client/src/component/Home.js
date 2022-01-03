@@ -103,7 +103,7 @@ const Home = ({ match }) => {
           </form>
           <div>
           <h5 className="ml-2">from jobinja.ir and karlancer.com</h5>
-          <hr/>
+          <hr/> 
           </div>
           {/* <button
             className="btn btn-danger ml-2 "
