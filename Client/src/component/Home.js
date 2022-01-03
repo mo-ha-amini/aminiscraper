@@ -113,14 +113,14 @@ const Home = ({ match }) => {
             Delete All <i className="fa fa-trash"></i>
           </button> */}
           <button
-            className="btn btn-success ml-2 "
+            className="btn btn-success ml-2 mb-2"
             onClick={() => downloadJHandler()}
             disabled={!jobsCount || jobsCount===0}
           >
             Download jobs csv <i className="fa fa-file-excel-o"></i>
           </button>
           <button
-            className="btn btn-success ml-2 "
+            className="btn btn-success ml-2 mb-2"
             onClick={() => downloadPHandler()}
             disabled={!jobsCount || jobsCount===0}
 
