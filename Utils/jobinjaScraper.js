@@ -8,7 +8,7 @@ async function scrapeListing(page) {
   let Listings = [];
   for (var i = 1; i <= page; i++) {
     const html = await request.get( 
-      `https://jobinja.ir/jobs?page=` + i
+      `https://jobinja.ir/jobs?filters%5Bkeywords%5D%5B%5D=&filters%5Blocations%5D%5B%5D=&filters%5Bjob_categories%5D%5B%5D=&page=` + i
     );
     console.log("Scraping page :", i);
     const $ = await cheerio.load(html);
