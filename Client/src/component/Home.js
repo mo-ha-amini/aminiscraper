@@ -105,18 +105,18 @@ const Home = ({ match }) => {
           <h5 className="ml-2">from jobinja.ir and karlancer.com</h5>
           <hr/>
           </div>
-          <button
+          {/* <button
             className="btn btn-danger ml-2 "
-            onClick={() => deleteAllHandler()} 
+            onClick={() => deleteAllHandler()}
             disabled={!jobsCount || jobsCount===0}
           >
-            {/* Delete All <i className="fa fa-trash"></i>
-          </button>
+            Delete All <i className="fa fa-trash"></i>
+          </button> */}
           <button
             className="btn btn-success ml-2 "
             onClick={() => downloadJHandler()}
             disabled={!jobsCount || jobsCount===0}
-          > */}
+          >
             Download jobs csv <i className="fa fa-file-excel-o"></i>
           </button>
           <button
